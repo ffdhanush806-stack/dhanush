@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
+import os from 'os';
 import { Pool } from 'pg';
 
-export const DATA_DIR = path.join(process.cwd(), '.data');
+const isServerless = Boolean(process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME || process.env.LAMBDA_TASK_ROOT);
+export const DATA_DIR = isServerless ? path.join(os.tmpdir(), '.data') : path.join(process.cwd(), '.data');
 const USERS_FILE = path.join(DATA_DIR, 'users.json');
 const BOOKINGS_FILE = path.join(DATA_DIR, 'bookings.json');
 const AI_CHATS_FILE = path.join(DATA_DIR, 'ai_chats.json');
@@ -72,6 +74,19 @@ export function ensureDataDir() {
   try {
     if (!fs.existsSync(DATA_DIR)) {
       fs.mkdirSync(DATA_DIR, { recursive: true });
+    }
+    // In serverless environments, copy seed files from project .data if present
+    const seedDir = path.join(process.cwd(), '.data');
+    if (DATA_DIR !== seedDir && fs.existsSync(seedDir)) {
+      const files = fs.readdirSync(seedDir);
+      for (const file of files) {
+        const destFile = path.join(DATA_DIR, file);
+        if (!fs.existsSync(destFile)) {
+          try {
+            fs.copyFileSync(path.join(seedDir, file), destFile);
+          } catch {}
+        }
+      }
     }
   } catch (err) {
     console.warn('Could not create data directory:', err);

@@ -16,8 +16,7 @@ import {
 } from '../src/types';
 import fs from 'fs';
 import path from 'path';
-
-const DATA_DIR = path.join(process.cwd(), '.data');
+import { DATA_DIR } from './db';
 const USERS_FILE = path.join(DATA_DIR, 'users.json');
 const TRIPS_FILE = path.join(DATA_DIR, 'trips.json');
 const BUDGETS_FILE = path.join(DATA_DIR, 'budgets.json');

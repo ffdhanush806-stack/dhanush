@@ -49,6 +49,51 @@ To run the Java Spring Boot service alongside the Node server:
 │   ├── ai.ts                   # Gemini 2.5 Flash luxury concierge integration
 │   └── email.ts                # OTP authentication & welcome mailer
 ├── server.ts                   # Express server entry point & reverse proxy
+├── app.ts                      # Modular Express app & API routing engine
+├── netlify/
+│   └── functions/api.ts        # Serverless Express API adapter for Netlify Functions
+├── netlify.toml                # Netlify build, SPA routing, and API proxy configuration
 ├── src/                        # React 19 Frontend application
 └── package.json                # Project dependencies and 2-command dev scripts
 ```
+
+---
+
+## 🌐 Deploy to Netlify
+
+TripNest is pre-configured for seamless deployment to [Netlify](https://www.netlify.com).
+
+### Deployment Architecture
+- **Frontend**: React 19 + Vite 6 Single Page Application built to `dist/`, served via Netlify's global edge CDN.
+- **Backend**: Express API endpoints (`/api/*`) run serverlessly through Netlify Functions (`netlify/functions/api.ts`).
+- **SPA Routing**: Automatic redirects (`/*` -> `/index.html`) handled by `netlify.toml` and `public/_redirects`.
+
+### Option A: Deploy via GitHub / GitLab / Bitbucket
+1. Push your repository to GitHub.
+2. In Netlify Dashboard, select **Add new site** > **Import an existing project**.
+3. Select your repository. Netlify will auto-detect settings from [netlify.toml](file:///c:/Users/ADMIN/Downloads/Tripnest%20Review/netlify.toml):
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+   - **Functions directory**: `netlify/functions`
+4. In **Site Configuration > Environment Variables**, add:
+   - `GEMINI_API_KEY`: Your Google Gemini API key
+   - `DATABASE_URL`: Your Neon PostgreSQL connection string (recommended for cloud persistence)
+   - `APP_URL`: Your Netlify site URL (e.g. `https://your-site.netlify.app`)
+   - `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET`: *(Optional)* Google OAuth credentials
+   - `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM`: *(Optional)* Email delivery
+5. Click **Deploy Site**!
+
+### Option B: Deploy via Netlify CLI
+```bash
+# 1. Login to Netlify (one-time)
+npx netlify login
+
+# 2. Initialize and deploy
+npx netlify init
+
+# 3. Deploy to production
+npx netlify deploy --prod
+```
+
+For full details and troubleshooting, see [NETLIFY_DEPLOYMENT.md](file:///c:/Users/ADMIN/Downloads/Tripnest%20Review/NETLIFY_DEPLOYMENT.md).
+
