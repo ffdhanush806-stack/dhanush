@@ -1,0 +1,142 @@
+[
+  {
+    "id": "usr-g-1788419183800",
+    "fullName": "Dhanush Kumar",
+    "email": "ffdhanush806@gmail.com",
+    "password": "Password123!",
+    "isEmailVerified": true,
+    "createdAt": "2026-09-03T07:06:23.800Z",
+    "updatedAt": "2026-10-12T07:48:54.187Z",
+    "membershipTier": "Champagne Gold VIP",
+    "points": 23600,
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLUZ8N1Ca0gsBY2MOesDOmnSYx3WeFYUmIOHBEub7F5Kkz9n0U=s96-c",
+    "provider": "google",
+    "role": "admin",
+    "googleId": "g_1788419183799_qbz0sz",
+    "federationDetails": {
+      "sub": "112133314323278122174",
+      "name": "Dhanush ff",
+      "email": "ffdhanush806@gmail.com",
+      "picture": "https://lh3.googleusercontent.com/a/ACg8ocLUZ8N1Ca0gsBY2MOesDOmnSYx3WeFYUmIOHBEub7F5Kkz9n0U=s96-c",
+      "linkedAt": "2026-10-12T07:12:04.549Z",
+      "provider": "google",
+      "deviceName": "Win32 (Google Identity Services)"
+    }
+  },
+  {
+    "id": "usr-demo-01",
+    "fullName": "Demo VIP Explorer",
+    "email": "demo@tripnest.luxury",
+    "password": "Password123!",
+    "isEmailVerified": true,
+    "createdAt": "2026-01-01T00:00:00Z",
+    "membershipTier": "Diamond Elite",
+    "points": 154000,
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "usr-admin-01",
+    "fullName": "System Administrator",
+    "email": "admin@tripnest.luxury",
+    "password": "Password123!",
+    "isEmailVerified": true,
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "membershipTier": "Diamond Elite",
+    "points": 999999,
+    "role": "admin",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "usr-admin-official",
+    "fullName": "Administrator",
+    "email": "tripnestoneofficial@gmail.com",
+    "password": "Sundhari@2006",
+    "isEmailVerified": true,
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "membershipTier": "Diamond Elite",
+    "points": 999999,
+    "role": "admin",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "usr-g-1788507936136",
+    "fullName": "kiran netlify",
+    "email": "kirannetlify@gmail.com",
+    "password": "Password123!",
+    "isEmailVerified": true,
+    "createdAt": "2026-09-04T07:45:34.708Z",
+    "updatedAt": "2026-09-04T07:45:34.708Z",
+    "membershipTier": "Champagne Gold VIP",
+    "points": 25000,
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJKpLpL9D45aYzc8lRGplhK_J_1Wcvrx6OqFF8BqxzHtb8Zag=s96-c",
+    "provider": "google",
+    "googleId": "113540860110187723540",
+    "federationDetails": {
+      "provider": "google",
+      "sub": "113540860110187723540",
+      "email": "kirannetlify@gmail.com",
+      "name": "kiran netlify",
+      "picture": "https://lh3.googleusercontent.com/a/ACg8ocJKpLpL9D45aYzc8lRGplhK_J_1Wcvrx6OqFF8BqxzHtb8Zag=s96-c",
+      "linkedAt": "2026-09-04T07:45:34.708Z",
+      "deviceName": "Win32 (Google Identity Services)"
+    }
+  },
+  {
+    "id": "usr-g-1788508293760",
+    "fullName": "Aarav Sharma",
+    "email": "traveler.vip.test@gmail.com",
+    "password": "Password123!",
+    "isEmailVerified": true,
+    "createdAt": "2026-09-04T07:51:33.542Z",
+    "updatedAt": "2026-09-04T07:51:33.542Z",
+    "membershipTier": "Champagne Gold VIP",
+    "points": 25000,
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "provider": "google",
+    "googleId": "g_1788508293542_0wjjop",
+    "federationDetails": {
+      "provider": "google",
+      "sub": "g_1788508293542_0wjjop",
+      "email": "traveler.vip.test@gmail.com",
+      "name": "Aarav Sharma",
+      "linkedAt": "2026-09-04T07:51:33.542Z",
+      "deviceName": "Selected Device Session"
+    }
+  },
+  {
+    "id": "usr-g-1788508295694",
+    "fullName": "Test VIP Traveler",
+    "email": "test_vip_guest@gmail.com",
+    "password": "Password123!",
+    "isEmailVerified": true,
+    "createdAt": "2026-09-04T07:51:35.501Z",
+    "updatedAt": "2026-09-04T07:51:45.943Z",
+    "membershipTier": "Champagne Gold VIP",
+    "points": 25000,
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "provider": "google",
+    "googleId": "g_1788508295500_98rdlf",
+    "federationDetails": {
+      "provider": "google",
+      "sub": "g_1788508305943_6e2rjq",
+      "email": "test_vip_guest@gmail.com",
+      "name": "Test VIP Traveler",
+      "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "linkedAt": "2026-09-04T07:51:45.943Z",
+      "deviceName": "Selected Device Session"
+    }
+  },
+  {
+    "id": "usr-1791703999214",
+    "fullName": "Bharath",
+    "email": "sundharibatraju@gmail.com",
+    "password": "Password123!",
+    "isEmailVerified": true,
+    "createdAt": "2026-10-11T07:33:19.214Z",
+    "membershipTier": "Champagne Gold VIP",
+    "points": 25000,
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+  }
+]

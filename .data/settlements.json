@@ -1,0 +1,41 @@
+[
+  {
+    "id": "set-001",
+    "groupId": "grp-kashmir-01",
+    "tripId": "trip-1789736347651-alzwl",
+    "fromMemberId": "mem-002",
+    "fromMemberName": "Aarav Sharma",
+    "toMemberId": "mem-001",
+    "toMemberName": "Dhanush Kumar",
+    "amount": 4575,
+    "currency": "INR",
+    "status": "Pending",
+    "createdAt": "2026-09-20T10:00:00.000Z"
+  },
+  {
+    "id": "set-002",
+    "groupId": "grp-kashmir-01",
+    "tripId": "trip-1789736347651-alzwl",
+    "fromMemberId": "mem-003",
+    "fromMemberName": "Priya Patel",
+    "toMemberId": "mem-001",
+    "toMemberName": "Dhanush Kumar",
+    "amount": 9000,
+    "currency": "INR",
+    "status": "Pending",
+    "createdAt": "2026-09-20T10:00:00.000Z"
+  },
+  {
+    "id": "set-003",
+    "groupId": "grp-kashmir-01",
+    "tripId": "trip-1789736347651-alzwl",
+    "fromMemberId": "mem-004",
+    "fromMemberName": "Rohan Mehta",
+    "toMemberId": "mem-001",
+    "toMemberName": "Dhanush Kumar",
+    "amount": 11200,
+    "currency": "INR",
+    "status": "Pending",
+    "createdAt": "2026-09-20T10:00:00.000Z"
+  }
+]

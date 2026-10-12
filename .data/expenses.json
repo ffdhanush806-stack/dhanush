@@ -1,0 +1,212 @@
+[
+  {
+    "id": "exp-001",
+    "tripId": "trip-1789736347651-alzwl",
+    "groupId": "grp-kashmir-01",
+    "userEmail": "ffdhanush806@gmail.com",
+    "title": "Khyber Himalayan Resort Premium Suite (2 Nights)",
+    "amount": 38000,
+    "currency": "INR",
+    "category": "Hotel",
+    "date": "2026-09-18",
+    "paymentMethod": "Credit Card",
+    "notes": "Luxury pine wood cottage with heated indoor pool & mountain view",
+    "isShared": true,
+    "paidByMemberId": "mem-001",
+    "paidByName": "Dhanush Kumar",
+    "splitType": "EQUAL",
+    "splitDetails": [
+      {
+        "memberId": "mem-001",
+        "memberName": "Dhanush Kumar",
+        "shareAmount": 9500,
+        "isPaid": true
+      },
+      {
+        "memberId": "mem-002",
+        "memberName": "Aarav Sharma",
+        "shareAmount": 9500,
+        "isPaid": false
+      },
+      {
+        "memberId": "mem-003",
+        "memberName": "Priya Patel",
+        "shareAmount": 9500,
+        "isPaid": false
+      },
+      {
+        "memberId": "mem-004",
+        "memberName": "Rohan Mehta",
+        "shareAmount": 9500,
+        "isPaid": false
+      }
+    ],
+    "createdAt": "2026-09-18T10:00:00.000Z",
+    "updatedAt": "2026-09-18T10:00:00.000Z"
+  },
+  {
+    "id": "exp-002",
+    "tripId": "trip-1789736347651-alzwl",
+    "groupId": "grp-kashmir-01",
+    "userEmail": "ffdhanush806@gmail.com",
+    "title": "Private Chauffeur Sedan Srinagar-Gulmarg-Pahalgam",
+    "amount": 14500,
+    "currency": "INR",
+    "category": "Transportation",
+    "date": "2026-09-19",
+    "paymentMethod": "UPI",
+    "notes": "Toyota Innova Crysta VIP 4-day private transit",
+    "isShared": true,
+    "paidByMemberId": "mem-002",
+    "paidByName": "Aarav Sharma",
+    "splitType": "EQUAL",
+    "splitDetails": [
+      {
+        "memberId": "mem-001",
+        "memberName": "Dhanush Kumar",
+        "shareAmount": 3625,
+        "isPaid": false
+      },
+      {
+        "memberId": "mem-002",
+        "memberName": "Aarav Sharma",
+        "shareAmount": 3625,
+        "isPaid": true
+      },
+      {
+        "memberId": "mem-003",
+        "memberName": "Priya Patel",
+        "shareAmount": 3625,
+        "isPaid": false
+      },
+      {
+        "memberId": "mem-004",
+        "memberName": "Rohan Mehta",
+        "shareAmount": 3625,
+        "isPaid": false
+      }
+    ],
+    "createdAt": "2026-09-19T09:30:00.000Z",
+    "updatedAt": "2026-09-19T09:30:00.000Z"
+  },
+  {
+    "id": "exp-003",
+    "tripId": "trip-1789736347651-alzwl",
+    "groupId": "grp-kashmir-01",
+    "userEmail": "ffdhanush806@gmail.com",
+    "title": "Royal Wazwan 36-Course Banquet at Ahdoos",
+    "amount": 6800,
+    "currency": "INR",
+    "category": "Food",
+    "date": "2026-09-19",
+    "paymentMethod": "Credit Card",
+    "notes": "Rogan Josh, Gushtaba, Tabak Maaz and Kahwa celebration",
+    "isShared": true,
+    "paidByMemberId": "mem-001",
+    "paidByName": "Dhanush Kumar",
+    "splitType": "EQUAL",
+    "splitDetails": [
+      {
+        "memberId": "mem-001",
+        "memberName": "Dhanush Kumar",
+        "shareAmount": 1700,
+        "isPaid": true
+      },
+      {
+        "memberId": "mem-002",
+        "memberName": "Aarav Sharma",
+        "shareAmount": 1700,
+        "isPaid": false
+      },
+      {
+        "memberId": "mem-003",
+        "memberName": "Priya Patel",
+        "shareAmount": 1700,
+        "isPaid": false
+      },
+      {
+        "memberId": "mem-004",
+        "memberName": "Rohan Mehta",
+        "shareAmount": 1700,
+        "isPaid": false
+      }
+    ],
+    "createdAt": "2026-09-19T20:15:00.000Z",
+    "updatedAt": "2026-09-19T20:15:00.000Z"
+  },
+  {
+    "id": "exp-004",
+    "tripId": "trip-1789736347651-alzwl",
+    "userEmail": "ffdhanush806@gmail.com",
+    "title": "Authentic Kashmiri Pashmina Shawl & Saffron Stigmas",
+    "amount": 8500,
+    "currency": "INR",
+    "category": "Shopping",
+    "date": "2026-09-20",
+    "paymentMethod": "UPI",
+    "notes": "Certified GI-tagged Pashmina and Pampore organic saffron",
+    "isShared": false,
+    "createdAt": "2026-09-20T16:00:00.000Z",
+    "updatedAt": "2026-09-20T16:00:00.000Z"
+  },
+  {
+    "id": "exp-005",
+    "tripId": "trip-1789736347651-alzwl",
+    "groupId": "grp-kashmir-01",
+    "userEmail": "ffdhanush806@gmail.com",
+    "title": "Dal Lake Sunset Shikara Charter & Floating Flower Market",
+    "amount": 3200,
+    "currency": "INR",
+    "category": "Entertainment",
+    "date": "2026-09-18",
+    "paymentMethod": "Cash",
+    "notes": "3-hour private shikara cruise with traditional live music",
+    "isShared": true,
+    "paidByMemberId": "mem-003",
+    "paidByName": "Priya Patel",
+    "splitType": "EQUAL",
+    "splitDetails": [
+      {
+        "memberId": "mem-001",
+        "memberName": "Dhanush Kumar",
+        "shareAmount": 800,
+        "isPaid": false
+      },
+      {
+        "memberId": "mem-002",
+        "memberName": "Aarav Sharma",
+        "shareAmount": 800,
+        "isPaid": false
+      },
+      {
+        "memberId": "mem-003",
+        "memberName": "Priya Patel",
+        "shareAmount": 800,
+        "isPaid": true
+      },
+      {
+        "memberId": "mem-004",
+        "memberName": "Rohan Mehta",
+        "shareAmount": 800,
+        "isPaid": false
+      }
+    ],
+    "createdAt": "2026-09-18T17:45:00.000Z",
+    "updatedAt": "2026-09-18T17:45:00.000Z"
+  },
+  {
+    "id": "exp-006",
+    "tripId": "trip-1789736347651-alzwl",
+    "userEmail": "ffdhanush806@gmail.com",
+    "title": "Gulmarg Gondola Phase-2 Mountain Porter & Emergency First-Aid",
+    "amount": 2400,
+    "currency": "INR",
+    "category": "Miscellaneous",
+    "date": "2026-09-21",
+    "paymentMethod": "Cash",
+    "notes": "Alpine mountain safety gear rental and acclimatization guides",
+    "isShared": false,
+    "createdAt": "2026-09-21T11:00:00.000Z",
+    "updatedAt": "2026-09-21T11:00:00.000Z"
+  }
+]

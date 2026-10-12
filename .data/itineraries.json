@@ -1,0 +1,74 @@
+[
+  {
+    "id": "itin-1789548587959-js3i",
+    "userEmail": "ffdhanush806@gmail.com",
+    "title": "Kashmir Alpine Sanctuary",
+    "destination": "Kashmir Valley",
+    "daysCount": 3,
+    "days": [
+      {
+        "day": 1,
+        "theme": "Arrival & Dal Lake",
+        "title": "Dal Lake Shikara Welcome",
+        "activities": [
+          {
+            "id": "act-101",
+            "time": "10:00 AM",
+            "activity": "Private Shikara cruise on Dal Lake"
+          }
+        ]
+      }
+    ],
+    "isProminent": false,
+    "createdAt": "2026-09-16T08:49:47.959Z",
+    "updatedAt": "2026-09-16T08:49:47.959Z"
+  },
+  {
+    "id": "itin-1789548538324-map9",
+    "userEmail": "ffdhanush806@gmail.com",
+    "title": "Kashmir Alpine Sanctuary",
+    "destination": "Kashmir Valley",
+    "daysCount": 3,
+    "days": [
+      {
+        "day": 1,
+        "theme": "Arrival & Dal Lake",
+        "title": "Dal Lake Shikara Welcome",
+        "activities": [
+          {
+            "id": "act-101",
+            "time": "10:00 AM",
+            "activity": "Private Shikara cruise on Dal Lake"
+          }
+        ]
+      }
+    ],
+    "isProminent": false,
+    "createdAt": "2026-09-16T08:48:58.324Z",
+    "updatedAt": "2026-09-16T08:48:58.324Z"
+  },
+  {
+    "id": "itin-1789548406900-ftzo",
+    "title": "Curated Itinerary",
+    "destination": "Global Haven",
+    "daysCount": 3,
+    "days": [
+      {
+        "day": 1,
+        "theme": "Arrival",
+        "title": "Arrival & Dal Lake",
+        "activities": [
+          {
+            "id": "act-1",
+            "time": "10:00 AM",
+            "activity": "Shikara Ride"
+          }
+        ]
+      }
+    ],
+    "isProminent": false,
+    "notes": "Updated via PUT",
+    "createdAt": "2026-09-16T08:46:46.900Z",
+    "updatedAt": "2026-09-16T08:47:00.497Z"
+  }
+]
